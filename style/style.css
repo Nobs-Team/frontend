@@ -1,0 +1,176 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background: #4caf50;
+  color: #fff;
+  padding: 1rem 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.logo a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li {
+  margin-left: 1rem;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 3px;
+  transition: background 0.3s;
+}
+
+.nav-links a:hover {
+  background: #45a049;
+}
+
+.auth-buttons {
+  display: flex;
+}
+
+.auth-buttons .login-btn,
+.auth-buttons .signup-btn {
+  margin-left: 0.5rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.auth-buttons .login-btn {
+  background: #fff;
+  color: #4caf50;
+}
+
+.auth-buttons .signup-btn {
+  background: #ff9800;
+  color: #fff;
+}
+
+.auth-buttons .login-btn:hover {
+  background: #f4f4f4;
+}
+
+.auth-buttons .signup-btn:hover {
+  background: #e68900;
+}
+
+main {
+  padding: 2rem 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.hero {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.hero h1 {
+  margin-bottom: 1rem;
+  font-size: 2.5rem;
+}
+
+.hero p {
+  font-size: 1.2rem;
+}
+
+.about-us,
+.services,
+.contact {
+  margin-bottom: 2rem;
+}
+
+.about-us h2,
+.services h2,
+.contact h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem 0;
+  background: #333;
+  color: #fff;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+.auth-form {
+  background: #ffffff;
+  max-width: 400px;
+  margin: 3rem auto;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.auth-form h2 {
+  margin-bottom: 1.5rem;
+  font-size: 1.8rem;
+  color: #333333;
+}
+
+.auth-form label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #333;
+  text-align: left;
+}
+
+.auth-form input {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.submit-btn {
+  background: #4caf50;
+  color: #fff;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.submit-btn:hover {
+  background: #45a049;
+}
